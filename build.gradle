@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.dodo.bookshelf'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.sparkjava:spark-core:2.7.2'
+    compile 'org.mongodb:mongodb-driver:3.8.2'
+    compile 'com.google.code.gson:gson:2.8.5'
+    compile 'org.slf4j:slf4j-simple:1.7.21'
+}
